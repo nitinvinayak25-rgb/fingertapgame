@@ -205,7 +205,7 @@ class _GamePageState extends State<GamePage> {
                         child: Text(
                           "PLAYER B",
                           style: TextStyle(
-                            fontSize: 25,
+                            fontSize: 36,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -213,7 +213,7 @@ class _GamePageState extends State<GamePage> {
                       Text(
                         playerBscore.toString(),
                         style: const TextStyle(
-                          fontSize: 25,
+                          fontSize: 36,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -259,7 +259,7 @@ class _GamePageState extends State<GamePage> {
                         child: Text(
                           "PLAYER A",
                           style: TextStyle(
-                            fontSize: 25,
+                            fontSize: 36,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -267,7 +267,7 @@ class _GamePageState extends State<GamePage> {
                       Text(
                         playerAscore.toString(),
                         style: const TextStyle(
-                          fontSize: 25,
+                          fontSize: 36,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
